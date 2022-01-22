@@ -43,7 +43,7 @@ export class TodoClient implements TodoClientInterface {
     return Promise.resolve()
   }
 
-  intitializeTodo(todo: Params) {
+  initializeTodo(todo: Params) {
     const date = new Date()
     return {
       id: date.getTime(),
